@@ -1,0 +1,21 @@
+.grid {
+    margin: 50px auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        width: 100%;
+        margin: 20px auto;
+        gap: 2px;
+    }
+
+    .node {
+        width: 20px;
+        height: 20px;
+    }
+}
